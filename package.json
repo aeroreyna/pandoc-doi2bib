@@ -1,0 +1,19 @@
+{
+  "name": "pandoc-doi2bib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pandoc --filter index.js --filter pandoc-citeproc -s test/paper.md -o test/paper.pdf",
+    "build": ""
+  },
+  "author": "AeroReyna",
+  "license": "ISC",
+  "dependencies": {
+    "doi2bib": "^1.0.6",
+    "pandoc-filter-promisified": "^0.1.0"
+  },
+  "bin": {
+    "pandoc-doi2bib": "./index.js"
+  }
+}
