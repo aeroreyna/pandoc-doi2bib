@@ -8,6 +8,11 @@
     "build": ""
   },
   "author": "AeroReyna",
+  "homepage": "https://github.com/aeroreyna/pandoc-doi2bib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aeroreyna/pandoc-doi2bib"
+  },
   "license": "ISC",
   "dependencies": {
     "doi2bib": "^1.0.6",

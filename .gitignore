@@ -7,7 +7,7 @@ yarn-error.log*
 lerna-debug.log*
 
 *.bib
-*.pdf
+test/*.pdf
 dist
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
