@@ -28,7 +28,7 @@ Run the command:
 pandoc --filter pandoc-doi2bib --filter pandoc-citeproc -s README.md -o README.pdf
 ~~~
 
-and the results an automatic citation like:
+and the results is an automatic citation like:
 
 Just cite some nice papers like [1] or [2].
 
