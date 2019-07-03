@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "pandoc --filter index.js --filter pandoc-citeproc -s test/paper.md -o test/paper.pdf",
-    "build": ""
+    "build": "pkg ."
   },
   "author": "AeroReyna",
   "homepage": "https://github.com/aeroreyna/pandoc-doi2bib",
